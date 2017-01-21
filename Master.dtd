@@ -1,0 +1,42 @@
+<!ELEMENT bloc ( ref-unite+ ) >
+<!ATTLIST bloc role NMTOKEN #REQUIRED >
+
+<!ELEMENT debouche ( poste+ ) >
+
+<!ELEMENT description ( #PCDATA ) >
+
+<!ELEMENT email ( #PCDATA ) >
+
+<!ELEMENT identifiant ( #PCDATA ) >
+
+<!ELEMENT intervenant ( nom, email, siteweb ) >
+<!ATTLIST intervenant id NMTOKEN #REQUIRED >
+
+<!ELEMENT lieu ( #PCDATA ) >
+
+<!ELEMENT master ( intervenant+, unite+, parcours+ ) >
+
+<!ELEMENT nbcredits ( #PCDATA ) >
+
+<!ELEMENT nom ( #PCDATA ) >
+
+<!ELEMENT parcours ( nom, responsable, description, debouche, semestre+ ) >
+
+<!ELEMENT plan EMPTY >
+
+<!ELEMENT poste ( #PCDATA ) >
+
+<!ELEMENT ref-unite EMPTY >
+<!ATTLIST ref-unite ref ID #REQUIRED >
+
+<!ELEMENT responsable ( nom ) >
+
+<!ELEMENT resume EMPTY >
+
+<!ELEMENT semestre ( bloc+ ) >
+
+<!ELEMENT siteweb ( #PCDATA ) >
+
+<!ELEMENT unite ( nom, identifiant, nbcredits, resume, plan, lieu ) >
+<!ATTLIST unite id ID #REQUIRED >
+
