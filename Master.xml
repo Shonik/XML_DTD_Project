@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<master>
+
+  <intervenant id="broche">
+    <nom>Martine BROCHE</nom>
+    <email>martine.broche@univ-amu.fr</email>
+    <siteweb></siteweb>
+  </intervenant>
+  <intervenant id="creignou">
+    <nom>Nadia CREIGNOU</nom>
+    <email>nadia.creignou@univ-amu.fr</email>
+    <siteweb></siteweb>
+  </intervenant>
+  <intervenant id="godard">
+    <nom>Emmanuel GODART</nom>
+    <email>emmanuel.godart@univ-amu.fr</email>
+    <siteweb>http://pageperso.lif.univ-mrs.fr/~emmanuel.godard/</siteweb>
+  </intervenant>
+  <intervenant id="massat">
+    <nom>Jean-Luc MASSAT</nom>
+    <email>jean-luc.massat@univ-amu.fr</email>
+    <siteweb>http://jean-luc.massat.perso.luminy.univ-amu.fr/ens/</siteweb>
+  </intervenant>
+
+  <unite id="ENSINAU1">
+    <nom>Génie Logiciel</nom>
+    <identifiant>ENSINAU1</identifiant>
+    <nbcredits>6</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>Luminy</lieu>
+  </unite>
+  <unite id="ENSINAU2">
+    <nom>Complexité</nom>
+    <identifiant>ENSINAU2</identifiant>
+    <nbcredits>6</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>Luminy</lieu>
+  </unite>
+  <unite id="ENSINAU3">
+    <nom>Réseaux</nom>
+    <identifiant>ENSINAU3</identifiant>
+    <nbcredits>6</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>Luminy</lieu>
+  </unite>
+  <unite id="ENSINAU4">
+    <nom>Programmation Fonctionnelle</nom>
+    <identifiant>ENSINAU4</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>Luminy</lieu>
+  </unite>
+  <unite id="ENSINAU5">
+    <nom>BDR : approfondissement</nom>
+    <identifiant>ENSINAU5</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>Luminy</lieu>
+  </unite>
+  <unite id="ENSINAU6">
+    <nom>Programmation Logique</nom>
+    <identifiant>ENSINAU6</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>Luminy</lieu>
+  </unite>
+  <unite id="ENSINAU7">
+    <nom>Outils de l'Internet</nom>
+    <identifiant>ENSINAU7</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>Luminy</lieu>
+  </unite>
+  <unite id="ENSINAU8">
+    <nom>Système embarqué</nom>
+    <identifiant>ENSINAU8</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>Luminy</lieu>
+  </unite>
+  <unite id="ENSINAU9">
+    <nom>Fondamentaux pour l'ingénierie des langues</nom>
+    <identifiant>ENSINAU9</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>Luminy</lieu>
+  </unite>
+  <unite id="ENSINAU10">
+    <nom>Modèles à événements discrets</nom>
+    <identifiant>ENSINAU10</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>Luminy</lieu>
+  </unite>
+  <unite id="ENSINAU13">
+    <nom>Pratique de la cryptographie</nom>
+    <identifiant>ENSINAU13</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>Luminy</lieu>
+  </unite>
+  <unite id="ENSINBU1">
+    <nom>Anglais</nom>
+    <identifiant>ENSINBU1</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>Luminy</lieu>
+  </unite>
+  <unite id="ENSINBU2">
+    <nom>Communication</nom>
+    <identifiant>ENSINBU2</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>Luminy</lieu>
+  </unite>
+  <unite id="ENSINBU4">
+    <nom>XML</nom>
+    <identifiant>ENSINBU4</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>Luminy</lieu>
+  </unite>
+  <unite id="ENSINBU5">
+    <nom>Algorithmique et recherche operationnelle</nom>
+    <identifiant>ENSINBU5</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>Luminy</lieu>
+  </unite>
+  <unite id="ENSINBU15">
+    <nom>Programmation parellèle</nom>
+    <identifiant>ENSINBU15</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>Luminy</lieu>
+  </unite>
+  <unite id="ENSINBU6">
+    <nom>Projet</nom>
+    <identifiant>ENSINBU6</identifiant>
+    <nbcredits>6</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>Luminy</lieu>
+  </unite>
+  <unite id="ENSINBU7">
+    <nom>Stage de deux mois</nom>
+    <identifiant>ENSINBU7</identifiant>
+    <nbcredits>6</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>Luminy</lieu>
+  </unite>
+  <unite id="ENSINBU8">
+    <nom>Sémantique</nom>
+    <identifiant>ENSINBU8</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>Luminy</lieu>
+  </unite>
+  <unite id="ENSINBU9">
+    <nom>Algorithmique distribuée</nom>
+    <identifiant>ENSINBU9</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>Luminy</lieu>
+  </unite>
+  <unite id="ENSINBU10">
+    <nom>Intégration des systèmes d'information</nom>
+    <identifiant>ENSINBU10</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>Luminy</lieu>
+  </unite>
+  <unite id="ENSINBU11">
+    <nom>Initiation à la fouille de données et à l'optimisation des SGBD</nom>
+    <identifiant>ENSINBU11</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>Luminy</lieu>
+  </unite>
+  <unite id="ENSINBU12">
+    <nom>Intelligence artificielle</nom>
+    <identifiant>ENSINBU12</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>Luminy</lieu>
+  </unite>
+  <unite id="ENSINBU13">
+    <nom>Algorithme à performance garantie</nom>
+    <identifiant>ENSINBU13</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>Luminy</lieu>
+  </unite>
+  <unite id="ENSINBU16">
+    <nom>Introduction à l'apprentissage automatique</nom>
+    <identifiant>ENSINBU16</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>Luminy</lieu>
+  </unite>
+  <unite id="ENSINCU60">
+    <nom>Architectures repaties - JEE</nom>
+    <identifiant>ENSINCU60</identifiant>
+    <nbcredits>6</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>St Jérome</lieu>
+  </unite>
+  <unite id="ENSINCU64">
+    <nom>Developpement d'applications mobiles</nom>
+    <identifiant>ENSINCU64</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>St Jérome</lieu>
+  </unite>
+  <unite id="ENSINCU65">
+    <nom>Gestion de projet</nom>
+    <identifiant>ENSINCU65</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>St Jérome</lieu>
+  </unite>
+  <unite id="ENSINCU68">
+    <nom>Cloud computing</nom>
+    <identifiant>ENSINCU68</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>St Jérome</lieu>
+  </unite>
+  <unite id="ENSINCU74">
+    <nom>Introduction au Big Data</nom>
+    <identifiant>ENSINCU74</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>St Jérome</lieu>
+  </unite>
+  <unite id="ENSINCU75">
+    <nom>Business process</nom>
+    <identifiant>ENSINCU75</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>St Jérome</lieu>
+  </unite>
+  <unite id="ENSISCU28">
+    <nom>RI8 : Web services</nom>
+    <identifiant>ENSISCU28</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>St Jérome</lieu>
+  </unite>
+  <unite id="ENSINCU27">
+    <nom>Anglais 2</nom>
+    <identifiant>ENSINCU27</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>St Jérome</lieu>
+  </unite>
+  <unite id="ENSINCU28">
+    <nom>COmmunication 2</nom>
+    <identifiant>ENSINCU28</identifiant>
+    <nbcredits>3</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>St Jérome</lieu>
+  </unite>
+  <unite id="ENSINDU8">
+    <nom>Projet industriel de mise en application</nom>
+    <identifiant>ENSINDU8</identifiant>
+    <nbcredits>6</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>St Jérome</lieu>
+  </unite>
+  <unite id="ENSINDU4">
+    <nom>Stage en entreprise</nom>
+    <identifiant>ENSINDU8</identifiant>
+    <nbcredits>24</nbcredits>
+    <resume> </resume>
+    <plan> </plan>
+    <lieu>St Jérome</lieu>
+  </unite>
+
+
+  <parcours>
+    <nom>Master 1</nom>
+    <responsable>
+      <nom>Remi MORIN</nom>
+    </responsable>
+    <description>
+      L'objectif de cette première année est de donner les bases
+      indispensables permettant, en deuxième année, de choisir une
+      spécialisation dans un domaine précis. Sur les 60 crédits de cette
+      première année, 15 crédits correspondent à des enseignements optionnels.
+      Ces options permettent de construire un parcours adapté. Un choix entre
+      stage ou projet encadré est également proposé au semestre de
+      printemps.
+    </description>
+    <debouche>
+      <poste>Master 2</poste>
+    </debouche>
+
+    <semestre>
+      <bloc role="obligatoire">
+        <ref-unite ref="ENSINAU1" />
+        <ref-unite ref="ENSINAU2" />
+        <ref-unite ref="ENSINAU3" />
+        <ref-unite ref="ENSINAU4" />
+        <ref-unite ref="ENSINAU5" />
+      </bloc>
+      <bloc role="option">
+        <ref-unite ref="ENSINAU6" />
+        <ref-unite ref="ENSINAU7" />
+        <ref-unite ref="ENSINAU8" />
+        <ref-unite ref="ENSINAU9" />
+        <ref-unite ref="ENSINAU10" />
+        <ref-unite ref="ENSINAU13" />
+      </bloc>
+    </semestre>
+
+    <semestre>
+      <bloc role="obligatoire">
+        <ref-unite ref="ENSINBU1" />
+        <ref-unite ref="ENSINBU2" />
+        <ref-unite ref="ENSINBU4" />
+        <ref-unite ref="ENSINBU5" />
+        <ref-unite ref="ENSINBU15" />
+      </bloc>
+      <bloc role="option">
+        <ref-unite ref="ENSINBU8" />
+        <ref-unite ref="ENSINBU9" />
+        <ref-unite ref="ENSINBU10" />
+        <ref-unite ref="ENSINBU11" />
+        <ref-unite ref="ENSINBU12" />
+        <ref-unite ref="ENSINBU13" />
+        <ref-unite ref="ENSINBU16" />
+      </bloc>
+      <bloc role="choix">
+        <ref-unite ref="ENSINBU6" />
+        <ref-unite ref="ENSINBU7" />
+      </bloc>
+    </semestre>
+  </parcours>
+
+  <parcours>
+    <nom>SIR</nom>
+    <responsable>
+      <nom>Omar BOUCELMA</nom>
+    </responsable>
+    <description>
+      Le programme vise la formation de spécialistes dans des métiers à forte
+      valeur ajoutée au travers des compétences acquises dans trois domaines
+      clés de l’informatique : les technologies avancées du Web (services web,
+      multimédia, etc.), les nouveaux modes de développement du logiciel
+      (Cloud, Mobile, etc.) et les processus métiers de l’entreprise.
+    </description>
+    <debouche>
+      <poste>Architecte en Systèmes d’Information</poste>
+      <poste>Ingénieur Développement Logiciels</poste>
+      <poste>Ingénieur Intégration</poste>
+      <poste>Consultant ERP/BPM</poste>
+      <poste>Chef de projet</poste>
+    </debouche>
+
+    <semestre>
+      <bloc role="obligatoire">
+        <ref-unite ref="ENSINCU60" />
+        <ref-unite ref="ENSINCU64" />
+        <ref-unite ref="ENSINCU65" />
+        <ref-unite ref="ENSINCU68" />
+        <ref-unite ref="ENSINCU74" />
+        <ref-unite ref="ENSINCU75" />
+        <ref-unite ref="ENSISCU28" />
+        <ref-unite ref="ENSINCU27" />
+        <ref-unite ref="ENSINCU28" />
+      </bloc>
+    </semestre>
+
+    <semestre>
+      <bloc role="obligatoire">
+        <ref-unite ref="ENSINDU3" />
+        <ref-unite ref="ENSINDU4" />
+      </bloc>
+    </semestre>
+  </parcours>
+
+</master>
