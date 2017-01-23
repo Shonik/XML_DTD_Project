@@ -1,42 +1,61 @@
-<!ELEMENT bloc ( ref-unite+ ) >
-<!ATTLIST bloc role NMTOKEN #REQUIRED >
+<?xml version="1.0" encoding="UTF-8" ?>
 
-<!ELEMENT debouche ( poste+ ) >
-
-<!ELEMENT description ( #PCDATA ) >
-
-<!ELEMENT email ( #PCDATA ) >
-
-<!ELEMENT identifiant ( #PCDATA ) >
-
-<!ELEMENT intervenant ( nom, email, siteweb ) >
-<!ATTLIST intervenant id NMTOKEN #REQUIRED >
-
-<!ELEMENT lieu ( #PCDATA ) >
+<!ELEMENT p ( #PCDATA | b | i | a )* >
+<!ELEMENT list ( ul ) >
+<!ELEMENT ul ( li* ) >
+<!ELEMENT li ( p* ) >
+<!ELEMENT table ( tr* ) >
+<!ELEMENT tr ( td* ) >
+<!ELEMENT td ( p* ) >
 
 <!ELEMENT master ( intervenant+, unite+, parcours+ ) >
 
-<!ELEMENT nbcredits ( #PCDATA ) >
+<!ELEMENT intervenant ( nom, email, siteweb ) >
+<!ATTLIST intervenant id ID #IMPLIED >
 
 <!ELEMENT nom ( #PCDATA ) >
 
-<!ELEMENT parcours ( nom, responsable, description, debouche, semestre+ ) >
-
-<!ELEMENT plan EMPTY >
-
-<!ELEMENT poste ( #PCDATA ) >
-
-<!ELEMENT ref-unite EMPTY >
-<!ATTLIST ref-unite ref ID #REQUIRED >
-
-<!ELEMENT responsable ( nom ) >
-
-<!ELEMENT resume EMPTY >
-
-<!ELEMENT semestre ( bloc+ ) >
+<!ELEMENT email ( #PCDATA ) >
 
 <!ELEMENT siteweb ( #PCDATA ) >
 
-<!ELEMENT unite ( nom, identifiant, nbcredits, resume, plan, lieu ) >
-<!ATTLIST unite id ID #REQUIRED >
+<!ELEMENT unite ( nom, identifiant, nbcredits, resume, plan, lieu, ref-intervenant* ) >
+<!ATTLIST unite id ID #IMPLIED >
+
+<!ELEMENT identifiant ( #PCDATA ) >
+
+<!ELEMENT nbcredits ( #PCDATA ) >
+
+<!ELEMENT resume ( #PCDATA | p | list | table )* >
+
+<!ELEMENT plan ( #PCDATA | list | p | table )* >
+
+<!ELEMENT lieu ( #PCDATA | p )* >
+
+<!ELEMENT ref-intervenant EMPTY >
+<!ATTLIST ref-intervenant ref IDREF #REQUIRED >
+
+<!ELEMENT parcours ( nom, responsable, description, debouche, semestre+ ) >
+
+<!ELEMENT responsable ( nom ) >
+
+<!ELEMENT debouche ( poste+ ) >
+
+<!ELEMENT poste ( #PCDATA ) >
+
+<!ELEMENT description ( #PCDATA | p | list | table )* >
+
+<!ELEMENT semestre ( bloc+ ) >
+
+<!ELEMENT bloc ( ref-unite+ ) >
+<!ATTLIST bloc role NMTOKEN #REQUIRED >
+
+<!ELEMENT ref-unite EMPTY >
+<!ATTLIST ref-unite ref IDREF #REQUIRED >
+
+
+
+
+
+
 

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
+<!DOCTYPE  master  SYSTEM  "Master.dtd"  >
+
 <master>
 
   <intervenant id="broche">
@@ -22,6 +24,16 @@
     <email>jean-luc.massat@univ-amu.fr</email>
     <siteweb>http://jean-luc.massat.perso.luminy.univ-amu.fr/ens/</siteweb>
   </intervenant>
+  <intervenant id="rene">
+    <nom>Lydie RENE CHABAROT</nom>
+    <email>lydie.rene@univ-amu.fr</email>
+    <siteweb></siteweb>
+  </intervenant>
+  <intervenant id="sabatier">
+    <nom>Claude SABATIER</nom>
+    <email>claude.sabatier@univ-amu.fr</email>
+    <siteweb></siteweb>
+  </intervenant>
 
   <unite id="ENSINAU1">
     <nom>Génie Logiciel</nom>
@@ -38,6 +50,7 @@
     <resume> </resume>
     <plan> </plan>
     <lieu>Luminy</lieu>
+    <ref-intervenant ref="creignou" />
   </unite>
   <unite id="ENSINAU3">
     <nom>Réseaux</nom>
@@ -46,6 +59,7 @@
     <resume> </resume>
     <plan> </plan>
     <lieu>Luminy</lieu>
+    <ref-intervenant ref="godard" />
   </unite>
   <unite id="ENSINAU4">
     <nom>Programmation Fonctionnelle</nom>
@@ -62,6 +76,7 @@
     <resume> </resume>
     <plan> </plan>
     <lieu>Luminy</lieu>
+    <ref-intervenant ref="sabatier" />
   </unite>
   <unite id="ENSINAU6">
     <nom>Programmation Logique</nom>
@@ -126,6 +141,8 @@
     <resume> </resume>
     <plan> </plan>
     <lieu>Luminy</lieu>
+    <ref-intervenant ref="broche" />
+    <ref-intervenant ref="rene" />
   </unite>
   <unite id="ENSINBU4">
     <nom>XML</nom>
@@ -134,6 +151,7 @@
     <resume> </resume>
     <plan> </plan>
     <lieu>Luminy</lieu>
+    <ref-intervenant ref="massat" />
   </unite>
   <unite id="ENSINBU5">
     <nom>Algorithmique et recherche operationnelle</nom>
@@ -409,7 +427,7 @@
 
     <semestre>
       <bloc role="obligatoire">
-        <ref-unite ref="ENSINDU3" />
+        <ref-unite ref="ENSINDU8" />
         <ref-unite ref="ENSINDU4" />
       </bloc>
     </semestre>
